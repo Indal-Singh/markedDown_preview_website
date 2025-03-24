@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header
+{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+section
+{
+    padding: 5px;
+}
+
+textarea
+{
+    border:none;
+    border: #333 solid 1px;
+    width: 100%;    
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+textarea:focus
+{
+    outline: none;
+    border: #535252 solid 2px;
+}
+
+#preview
+{
+    display: none;
+    border: #333 solid 1px;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
